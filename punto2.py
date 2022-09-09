@@ -1,8 +1,8 @@
 g = []
-h={}
 conta = 0
 
-while(conta<2):
+while(conta<10):
+    h={}
 
     h["nombre"] = input("Digite nombre: ")
     h["color"] = input("Digite color: ")
@@ -14,5 +14,4 @@ while(conta<2):
 g.reverse()
 
 print(f"{g}")
-
     
